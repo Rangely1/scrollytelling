@@ -1,0 +1,57 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #111;
+  color: #eee;
+}
+main {
+  width: 100%;
+  overflow-x: hidden;
+}
+.intro, .outro {
+  padding: 100vh 10vw;
+  font-size: 2em;
+  background: #222;
+}
+.scrolly {
+  position: relative;
+  display: flex;
+  padding: 0 10vw;
+  min-height: 200vh;
+}
+.graphic {
+  position: sticky;
+  top: 20vh;
+  flex: 1;
+  height: 60vh;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+.text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.step {
+  margin: 50vh 0;
+  padding: 2em;
+  background: #222;
+  color: #eee;
+  border-left: 5px solid transparent;
+}
+.step.is-active {
+  background: #333;
+  border-left-color: lightgreen;
+}
+svg {
+  background: #111;
+}
+#map {
+  border: 2px solid red;
+}
